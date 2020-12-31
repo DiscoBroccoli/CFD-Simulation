@@ -46,7 +46,7 @@ The square lid-driven cavityis a widely used canonical simulation to validate nu
 <img src="https://github.com/DiscoBroccoli/CFD-Simulation/blob/main/Lid%20Driven%20Cavity%20Flow/chrome_mfqAZ0VdbW.png">
 </p>
 
-The numerical method did not change but now we need to take into the viscous effect into consideration. In essence, this will result in a intermediate computation for each time step.
+The numerical method did not change but now we need to take into the viscous effect into consideration. In essence, this will result in a intermediate computation for each time step. Furthermore, the Reynolds Number for this simulation has been calibrated to 100.
 
 ![Alt Text](https://github.com/DiscoBroccoli/CFD-Simulation/blob/main/Latex_Equation/F_Flux.gif)
 
