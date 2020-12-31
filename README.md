@@ -8,9 +8,10 @@ This repo contains a few example of computational fluid dynamics videos and thei
 * 2D Incompressible Cylinder
 
 ## Isentropic Vortex
-
-![Output sample](https://github.com/DiscoBroccoli/CFD-Simulation/blob/main/Isentropic%20Vortex/Isentropic_Vortex2.gif)
-
+<p align="center">
+<img src="https://github.com/DiscoBroccoli/CFD-Simulation/blob/main/Isentropic%20Vortex/Isentropic_Vortex2.gif">
+</p>
+  
 For this simulation, a periodic domain of length Lx = Ly = 20 is created. The Euler Solver make use of the 2nd central finite difference scheme in space and the 4th Runge-Kutta method in time. The final time is t =20. The Euler set of fluid equation are quasilinear hyperbolic equations governing adiabatic and inviscid flow. The distinction between the Euler set and the infamous Navier-Stockes equations is the neglection of the viscosity within the fluid.
 
 ![Alt Text](https://github.com/DiscoBroccoli/CFD-Simulation/blob/main/Latex_Equation/rho.gif)
