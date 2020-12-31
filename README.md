@@ -3,7 +3,7 @@
 This repo contains a few example of computational fluid dynamics videos and their code written by Jie on MATLAB - except for the 2D incompressible cylinder (PyFR).
 
 * Isentropic Vortex
-* Multidimensional Heat Diffusion
+* Multidimensional Diffusion
 * Lid-Driven Square Cavity Flow
 * 2D Incompressible Cylinder
 
@@ -37,6 +37,20 @@ Once the field has been initialized, we can start marching the solution in time 
 ![Alt Text](https://github.com/DiscoBroccoli/CFD-Simulation/blob/main/Latex_Equation/Central_scheme.gif)
 
 source: [Spiegel, Seth & Huynh, H.T. & DeBonis, James. (2015). A Survey of the Isentropic Euler Vortex Problem using High-Order Methods. 10.2514/6.2015-2444. ]
+
+## Multidimensional Diffusion Equation
+
+The heat distribution in a solid body obeys the heat equation:
+
+![Alt Text](https://github.com/DiscoBroccoli/CFD-Simulation/blob/main/Multidimensional%20Diffusion/heat_equa.gif)
+
+Where the beta is the heat diffusivity. The Courant–Friedrichs–Lewy (CFL) used in this simulation is 0.25. The CFL is a stability criterion in order to reach convergence in hyperbolic PDEs. 
+
+![Alt Text](https://github.com/DiscoBroccoli/CFD-Simulation/blob/main/Multidimensional%20Diffusion/CFL.gif)
+
+<p align="center">
+<img src="https://github.com/DiscoBroccoli/CFD-Simulation/blob/main/Multidimensional%20Diffusion/Heat-Multi.gif">
+</p>
 
 ## Lid-Driven Cavity Flow - 2D Navier-Stokes Solver
 
