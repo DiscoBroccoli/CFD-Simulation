@@ -1,8 +1,7 @@
 %% ========================================================================
-%% ...................ENGR 6251 Assignment #3......................
+%% ...................2D Euler Solver......................
 %% ========================================================================
-%% Question 3 - 2D Euler Solver
-clear all; clc;
+
 N =70; Nx = N; Ny = N;
 dx = 20/Nx; dy = 20/Ny;
 dt = (dx)/6; n_iter_t = 20/dt;
@@ -15,7 +14,7 @@ w(:,:,1) = rho; w(:,:,2) = rho.*u; w(:,:,3) = rho.*v; w(:,:,4) = rho_energy(p, r
 % F = flux_F(w, p); G = flux_G(w, p); 
 
 %% Initialize video
-myVideo = VideoWriter('myVideoFile'); %open video file
+myVideo = VideoWriter('Isentropic Vortex,',num2str(N),'x',num2str(N)); %open video file
 myVideo.FrameRate = 35; 
 open(myVideo)
 
@@ -59,7 +58,7 @@ toc
 % title('Solution of the Density in an Isentropic Vortex using N = 480', 'FontSize',22,'interpreter','latex');
 % xlabel('x-position','FontSize',20,'interpreter','latex');
 % ylabel('u-position','FontSize',20,'interpreter','latex');
-% saveas(figure(1), 'Q3_480_02.png')
+% saveas(figure(1), ''Isentropic Vortex,',num2str(N),'x',num2str(N).png')
 % close(1)
 %%
 E = error2(w(:,:,1), rho, Nx, Ny);
@@ -83,5 +82,5 @@ E = error2(w(:,:,1), rho, Nx, Ny);
 % annotation('textbox', [.4 .3 .1 .1], 'String', ...
 %          ['slope = ',num2str(slope)]);
 %      
-% saveas(figure(1), 'Q3_O4_error.png')
+% saveas(figure(1), 'error.png')
 % close(1)
