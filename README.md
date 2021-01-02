@@ -3,9 +3,10 @@
 This repo contains a few example of computational fluid dynamics videos and their code written by Jie on MATLAB - except for the 2D incompressible cylinder (PyFR).
 
 * Isentropic Vortex
+* 2D Incompressible Cylinder
 * Multidimensional Diffusion
 * Lid-Driven Square Cavity Flow
-* 2D Incompressible Cylinder
+
 
 ## Isentropic Vortex - 2D Euler Solver
 <p align="center">
@@ -37,6 +38,18 @@ Once the field has been initialized, we can start marching the solution in time 
 ![Alt Text](https://github.com/DiscoBroccoli/CFD-Simulation/blob/main/Latex_Equation/Central_scheme.gif)
 
 source: [Spiegel, Seth & Huynh, H.T. & DeBonis, James. (2015). A Survey of the Isentropic Euler Vortex Problem using High-Order Methods. 10.2514/6.2015-2444. ]
+
+## 2D Incompressible Cylinder
+
+The solver used is the Python based PyFR, which a FEM method using the [Discontinuous Galerkin Method](https://www.researchgate.net/publication/309715679_A_Flux_Reconstruction_Approach_to_High-Order_Schemes_Including_Discontinuous_Galerkin_Methods).
+
+The implementation uses a time-step and pseudo time-step of size 1.25e-2 & 2.5e-3 respectively.
+
+<p align="center">
+<img src="https://github.com/DiscoBroccoli/CFD-Simulation/blob/main/9KXDYQlhUB.gif">
+</p>
+
+source: [Huynh, H.T.. (2007). A Flux Reconstruction Approach to High-Order Schemes Including Discontinuous Galerkin Methods. AIAA Paper AIAA 20074079. 1-42. ]
 
 ## Multidimensional Diffusion Equation
 
