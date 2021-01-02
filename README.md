@@ -41,7 +41,7 @@ source: [Spiegel, Seth & Huynh, H.T. & DeBonis, James. (2015). A Survey of the I
 
 ## 2D Incompressible Cylinder
 
-The solver used is the Python based PyFR, which a FEM method using the [Discontinuous Galerkin Method](https://www.researchgate.net/publication/309715679_A_Flux_Reconstruction_Approach_to_High-Order_Schemes_Including_Discontinuous_Galerkin_Methods).
+The solver used is the Python based PyFR, which is a FEM method using the [Discontinuous Galerkin Method](https://www.researchgate.net/publication/309715679_A_Flux_Reconstruction_Approach_to_High-Order_Schemes_Including_Discontinuous_Galerkin_Methods).
 
 The implementation uses a time-step and pseudo time-step of size 1.25e-2 & 2.5e-3 respectively.
 
