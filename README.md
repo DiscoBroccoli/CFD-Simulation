@@ -1,6 +1,6 @@
 # CFD-Simulation
 
-This repo contains a few example of computational fluid dynamics videos and their code written by Jie on MATLAB - except for the 2D incompressible cylinder (PyFR).
+This repo contains a few fun examples of computational fluid dynamics and their code written by Jie on MATLAB.
 
 * Isentropic Vortex
 * 2D Incompressible Cylinder
@@ -46,7 +46,7 @@ The solver used is the Python based PyFR, which is a FEM method using the [Disco
 The implementation uses a time-step and pseudo time-step of size 1.25e-2 & 2.5e-3 respectively. For the complete configuration you can visit the folder [2D Incompressible Cylinder](https://github.com/DiscoBroccoli/CFD-Simulation/tree/main/2D%20Incompressible%20Cylinder). As well as the official website, [PyFR](http://www.pyfr.org/index.php).
 
 <p align="center">
-<img src="https://github.com/DiscoBroccoli/CFD-Simulation/blob/main/9KXDYQlhUB.gif">
+<img src="https://github.com/DiscoBroccoli/CFD-Simulation/blob/main/2D%20Incompressible%20Cylinder/2D_cylinder.gif">
 </p>
 
 source: [Huynh, H.T.. (2007). A Flux Reconstruction Approach to High-Order Schemes Including Discontinuous Galerkin Methods. AIAA Paper AIAA 20074079. 1-42. ]
